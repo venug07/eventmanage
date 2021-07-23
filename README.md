@@ -45,6 +45,7 @@ ACTOR APIS
     {
      "status": "Actor created successfully"
     }
+    
 
 2) Actor Sign In
    --------------
@@ -65,7 +66,10 @@ ACTOR APIS
  REPO APIS
  -------------
 
- 3)  API: POST http://localhost:3000/repos
+ 3)  CREATE REPO
+     -----------
+ 
+     API: POST http://localhost:3000/repos
 
      Request:
 
@@ -79,8 +83,8 @@ ACTOR APIS
        }
 
 
- EVENT APIS
- -------------   
+  EVENT APIS
+  ----------- 
 
   For Event apis headers are mandatory for all requests.
 
@@ -99,7 +103,7 @@ ACTOR APIS
  
 
 4)  Event Index (View All Events)
-   -------------------------------
+    -----------------------------
 
    API: GET http://localhost:3000/events 
              OR 
@@ -161,7 +165,7 @@ ACTOR APIS
 
 
 6)  Event Show (View An Event)
-   -------------------------------
+    ---------------------------
 
    API: GET http://localhost:3000/events/1
 
@@ -187,9 +191,8 @@ ACTOR APIS
       }
 
 
-
 7)  View An Event Of A Particular Repo
-   -----------------------------------
+     ---------------------------------
 
    API: http://localhost:3000/repos/1/events
                   OR
