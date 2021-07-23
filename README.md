@@ -29,11 +29,10 @@ API DOCUMENTATION
 -------------------------------------
 
 ACTOR APIS
-
 ----------------
 
 1) Actor Sign Up
-   -----------
+   -------------
 
    API:  POST http://localhost:3000/actors
 
@@ -48,7 +47,7 @@ ACTOR APIS
     }
 
 2) Actor Sign In
-   -------------
+   --------------
 
    API: POST  http://localhost:3000/actors/login
 
@@ -59,7 +58,7 @@ ACTOR APIS
    Response:
    
     {
-     "auth_token": "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjc2MDQ2NTEsImlzcyI6Imlzc3Vlcl9uYW1lIiwiYXVkIjoiY2xpZW50IiwiYWN0b3JfaWQiOjF9.Yvrfh6slnc00RPi_Fga_wEx6O7FQN9eL6Gandz1TWgw"
+     "auth_token":   "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjc2MDQ2NTEsImlzcyI6Imlzc3Vlcl9uYW1lIiwiYXVkIjoiY2xpZW50IiwiYWN0b3JfaWQiOjF9.Yvrfh6slnc00RPi_Fga_wEx6O7FQN9eL6Gandz1TWgw"
     }
 
   
@@ -86,22 +85,21 @@ ACTOR APIS
   For Event apis headers are mandatory for all requests.
 
   HEADER:
-  ------
+  -------
    
    key: Authorization
 
    value: Actor Sign In Token
   
- Eg:
+   Eg:
 
-  Key:  Authorization
+   Key:  Authorization
 
-  Value: "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjc2MDQ2NTEsImlzcyI6Imlzc3Vlcl9uYW1lIiwiYXVkIjoiY2xpZW50IiwiYWN0b3JfaWQiOjF9.Yvrfh6slnc00RPi_Fga_wEx6O7FQN9eL6Gandz1TWgw"
+   Value: "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjc2MDQ2NTEsImlzcyI6Imlzc3Vlcl9uYW1lIiwiYXVkIjoiY2xpZW50IiwiYWN0b3JfaWQiOjF9.Yvrfh6slnc00RPi_Fga_wEx6O7FQN9eL6Gandz1TWgw"
  
 
 4)  Event Index (View All Events)
    -------------------------------
-
 
    API: GET http://localhost:3000/events 
              OR 
@@ -219,17 +217,4 @@ ACTOR APIS
         "updated_at": "2021-07-23T00:34:19.886Z"
        }
       ]
-
-
-
-
-
-
-
-
-
-
-
-
-
 
