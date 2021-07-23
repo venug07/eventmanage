@@ -66,8 +66,8 @@ ACTOR APIS
  REPO APIS
  -------------
 
- 3)  CREATE REPO
-     -----------
+ 3) CREATE REPO
+    -----------
  
      API: POST http://localhost:3000/repos
 
@@ -102,8 +102,8 @@ ACTOR APIS
    Value: "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Mjc2MDQ2NTEsImlzcyI6Imlzc3Vlcl9uYW1lIiwiYXVkIjoiY2xpZW50IiwiYWN0b3JfaWQiOjF9.Yvrfh6slnc00RPi_Fga_wEx6O7FQN9eL6Gandz1TWgw"
  
 
-4)  Event Index (View All Events)
-    -----------------------------
+4) Event Index (View All Events)
+   -----------------------------
 
    API: GET http://localhost:3000/events 
              OR 
@@ -133,7 +133,7 @@ ACTOR APIS
       ]
 
 
-6) Create Event
+5) Create Event
    -------------
 
    API: POST http://localhost:3000/events
@@ -164,8 +164,8 @@ ACTOR APIS
       }
 
 
-6)  Event Show (View An Event)
-    ---------------------------
+6) Event Show (View An Event)
+   ---------------------------
 
    API: GET http://localhost:3000/events/1
 
@@ -191,8 +191,8 @@ ACTOR APIS
       }
 
 
-7)  View An Event Of A Particular Repo
-     ---------------------------------
+7) View An Event Of A Particular Repo
+   ---------------------------------
 
    API: http://localhost:3000/repos/1/events
                   OR
